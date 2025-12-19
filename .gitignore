@@ -1,0 +1,26 @@
+﻿# Build
+**/bin/
+**/obj/
+**/artifacts/
+
+# IDEs e ferramentas
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.dmp
+*.orig
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
