@@ -9,7 +9,9 @@ namespace Recruitment.System.Domain.Entity
         public UserRole Role { get; private set; }
         public string Email { get; private set; }
         
-        public User(string externalId, UserRole role, string email)
+        public User(string externalId,
+            UserRole role,
+            string email)
         {
             ExternalId = externalId;
             Role = role;

@@ -12,11 +12,11 @@
             CreatedAt = DateTime.UtcNow;
         }
 
-        protected void SoftDelete()
+        public void SoftDelete()
         {
             IsDeleted = true;
         }
-        protected void Restore()
+        public void Restore()
         {
             IsDeleted = false;
         }
